@@ -96,3 +96,46 @@ C:\Users\User\source\repos\GitAssignment>git log --oneline --graph --all
 * b346037 First commit
 
 C:\Users\User\source\repos\GitAssignment>
+
+------------------------------------------------------------------step2
+
+C:\Users\User\source\repos\GitAssignment>git checkout Step1
+M       Step1.txt
+Switched to branch 'Step1'
+
+C:\Users\User\source\repos\GitAssignment>git add Step1.txt
+
+C:\Users\User\source\repos\GitAssignment>git commit -m "Step 2 recommit"
+[Step1 2355c06] Step 2 recommit
+ 1 file changed, 98 insertions(+), 1 deletion(-)
+
+C:\Users\User\source\repos\GitAssignment>git status
+On branch Step1
+nothing to commit, working tree clean
+
+C:\Users\User\source\repos\GitAssignment>git push origin Step1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.19 KiB | 1.19 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MveloK/GitAssignmentMvelo.git
+   c93bbce..2355c06  Step1 -> Step1
+
+C:\Users\User\source\repos\GitAssignment>git checkout main
+Switched to branch 'main'
+
+C:\Users\User\source\repos\GitAssignment>git merge Step1
+Updating c93bbce..2355c06
+Fast-forward
+ Step1.txt | 99 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 98 insertions(+), 1 deletion(-)
+
+C:\Users\User\source\repos\GitAssignment>git checkout main
+Already on 'main'
+
+C:\Users\User\source\repos\GitAssignment>git checkout -b Step2
+Switched to a new branch 'Step2'
+
+C:\Users\User\source\repos\GitAssignment>
