@@ -1,3 +1,4 @@
+
 Mvelo - Step1
 -------------------------------
 Microsoft Windows [Version 10.0.19045.6396]
@@ -139,3 +140,7 @@ C:\Users\User\source\repos\GitAssignment>git checkout -b Step2
 Switched to a new branch 'Step2'
 
 C:\Users\User\source\repos\GitAssignment>
+
+This was insightful it truly showed me I don't know Git as well as I thought I did and I'm looking forward to practising more
+this was great honestly!! 
+
