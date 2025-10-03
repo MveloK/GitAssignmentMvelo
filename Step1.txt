@@ -1,1 +1,98 @@
-Mvelo
+Mvelo - Step1
+-------------------------------
+Microsoft Windows [Version 10.0.19045.6396]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User\source\repos\GitAssignment>git init
+Initialized empty Git repository in C:/Users/User/source/repos/GitAssignment/.git/
+
+C:\Users\User\source\repos\GitAssignment>git checkout -b Step1
+Switched to a new branch 'Step1'
+
+C:\Users\User\source\repos\GitAssignment>git add Step1.txt
+
+C:\Users\User\source\repos\GitAssignment>git status
+On branch Step1
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Step1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Step2.txt
+
+
+C:\Users\User\source\repos\GitAssignment>git commit -m "First commit"
+[Step1 (root-commit) b346037] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Step1.txt
+
+C:\Users\User\source\repos\GitAssignment>git remote add origin https://github.com/MveloK/GitAssignmentMvelo.git
+
+C:\Users\User\source\repos\GitAssignment>git push origin Step1
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 55.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Step1' on GitHub by visiting:
+remote:      https://github.com/MveloK/GitAssignmentMvelo/pull/new/Step1
+remote:
+To https://github.com/MveloK/GitAssignmentMvelo.git
+ * [new branch]      Step1 -> Step1
+
+C:\Users\User\source\repos\GitAssignment>git add Step2.txt
+
+C:\Users\User\source\repos\GitAssignment>git commit -m "Step 2 second commit"
+[Step1 c93bbce] Step 2 second commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Step2.txt
+
+C:\Users\User\source\repos\GitAssignment>git push origin Step1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MveloK/GitAssignmentMvelo.git
+   b346037..c93bbce  Step1 -> Step1
+
+C:\Users\User\source\repos\GitAssignment>git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+C:\Users\User\source\repos\GitAssignment>git checkout -b main
+Switched to a new branch 'main'
+
+C:\Users\User\source\repos\GitAssignment>git pull origin Step1
+From https://github.com/MveloK/GitAssignmentMvelo
+ * branch            Step1      -> FETCH_HEAD
+Already up to date.
+
+C:\Users\User\source\repos\GitAssignment>git merge Step1
+Already up to date.
+
+C:\Users\User\source\repos\GitAssignment>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\User\source\repos\GitAssignment>git checkout Step1
+Switched to branch 'Step1'
+
+C:\Users\User\source\repos\GitAssignment>git merge main
+Already up to date.
+
+C:\Users\User\source\repos\GitAssignment>git checkout main
+Switched to branch 'main'
+
+C:\Users\User\source\repos\GitAssignment>git merge Step1
+Already up to date.
+
+C:\Users\User\source\repos\GitAssignment>git log --oneline --graph --all
+* c93bbce (HEAD -> main, origin/Step1, Step1) Step 2 second commit
+* b346037 First commit
+
+C:\Users\User\source\repos\GitAssignment>
