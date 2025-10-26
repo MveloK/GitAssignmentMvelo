@@ -7,7 +7,8 @@ namespace RomanNum
     {
         public string Convert(int number)
         {
-            throw new NotImplementedException(); 
+            if (number == 1) return "I";
+            return string.Empty;
         }
     }
 }
