@@ -20,6 +20,14 @@ namespace RomanNumTest
             Assert.Equal("V", converter.Convert(5)); 
         }
 
+        [Fact]
+        public void Convert_ReturningIV()
+        {
+            var converter = new RomanNumeralConverter();
+            Assert.Equal("IV", converter.Convert(4));
+
+        }
+
     }
     
 }

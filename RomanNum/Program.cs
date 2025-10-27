@@ -18,9 +18,23 @@ namespace RomanNum
 
         public string Convert(int number)
         {
-            if (number == 1) return "I";
-            return string.Empty;
-            
+            if (number < 1 || number > 3000)
+                throw new ArgumentOutOfRangeException(nameof(number), "Number must be between 1 and 3000 to convert to roman numerals.");
+
+            var result = new StringBuilder();
+            var remaining = number;
+
+            foreach (var (value, numeral) in _mapping)
+            {
+                while (remaining >= value)
+                {
+                    result.Append(numeral);
+                    remaining -= value;
+                }
+            }
+
+            return result.ToString();
+
         }
     }
 }
