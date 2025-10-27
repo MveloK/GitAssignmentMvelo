@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AEDD5EA-DA3A-4D1B-B35D-03CCCAA0F410}|RomanNum.csproj|c:\\users\\user\\source\\repos\\gitassignment\\romannum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AEDD5EA-DA3A-4D1B-B35D-03CCCAA0F410}|RomanNum.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{515C954A-4708-4928-9FE8-2D7487E43B2D}|..\\RomanNumTest\\RomanNumTest.csproj|c:\\users\\user\\source\\repos\\gitassignment\\romannumtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{515C954A-4708-4928-9FE8-2D7487E43B2D}|..\\RomanNumTest\\RomanNumTest.csproj|c:\\users\\user\\source\\repos\\gitassignment\\romannumtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AEDD5EA-DA3A-4D1B-B35D-03CCCAA0F410}|RomanNum.csproj|c:\\users\\user\\source\\repos\\gitassignment\\romannum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AEDD5EA-DA3A-4D1B-B35D-03CCCAA0F410}|RomanNum.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,26 +33,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNumTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\RomanNumTest\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNumTest\\UnitTest1.cs",
               "RelativeToolTip": "..\\RomanNumTest\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T22:05:40.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNum\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNum\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNum\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T21:51:58.663Z",
               "EditorCaption": ""
