@@ -28,6 +28,27 @@ namespace RomanNumTest
 
         }
 
+        [Fact]
+        public void Convert_ReturningMCMLXXXIV()
+        {
+            var converter = new RomanNumeralConverter();
+            Assert.Equal("MCMLXXXIV", converter.Convert(1984));
+        }
+
+        [Fact]
+        public void Convert_ReturningMMM()
+        {
+            var converter = new RomanNumeralConverter();
+            Assert.Equal("MMM", converter.Convert(3000));
+        }
+
+        [Fact]
+        public void Convert_ReturningCD()
+        {
+            var converter = new RomanNumeralConverter();
+            Assert.Equal("CD", converter.Convert(400));
+        }
+
     }
     
 }
