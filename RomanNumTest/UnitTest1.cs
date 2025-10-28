@@ -5,6 +5,16 @@ namespace RomanNumTest
 {
     public class UnitTest1
     {
+
+        private readonly RomanNumeralConverter _converter = new();
+
+        [Fact]
+        public void Convert_Returning_Null()
+        {
+            var converter = new RomanNumeralConverter();
+            Assert.Equal("N", converter.Convert(0));
+        }
+
         [Fact]
     
             public void Convert_ReturningI()
@@ -49,6 +59,11 @@ namespace RomanNumTest
             Assert.Equal("CD", converter.Convert(400));
         }
 
+        //https://www.youtube.com/watch?v=p76WYIAW6XY referenced this youtube video might redo this project again
+        //https://www.youtube.com/watch?v=ZuYa9W4aNmQ Also a good Roman numeral conversion video def will do this assignment again.
+
+      
+
     }
-    
+
 }

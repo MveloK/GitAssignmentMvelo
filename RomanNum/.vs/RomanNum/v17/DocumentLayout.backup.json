@@ -37,9 +37,9 @@
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNumTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\RomanNumTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNumTest\\UnitTest1.cs",
-              "RelativeToolTip": "..\\RomanNumTest\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA4AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GitAssignment\\RomanNumTest\\UnitTest1.cs*",
+              "RelativeToolTip": "..\\RomanNumTest\\UnitTest1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T22:05:40.211Z",
               "EditorCaption": ""
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T21:51:58.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T21:51:58.663Z"
             }
           ]
         }
